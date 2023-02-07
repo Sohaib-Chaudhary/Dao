@@ -1,14 +1,14 @@
 "use client"
 import { ChakraProvider } from '@chakra-ui/react'
 
-import Navbar from './navbar'
+import NavBar from './navbar'
 
 
 
 export default function Home() {
   return (
     <ChakraProvider>
-      <Navbar />
+      <NavBar />
     </ChakraProvider>
   )
 }
