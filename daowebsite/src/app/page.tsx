@@ -5,13 +5,15 @@ import NavBar from './navbar'
 import Hero from './Hero'
 import Statistics from './Statistics'
 import Testimonials from './Testimonials'
+import Footer from './Footer'
 export default function Home() {
   return (
     <ChakraProvider>
       <NavBar />
       <Hero />
       <Statistics />
-      <Testimonials/>
+      <Testimonials />
+      <Footer />
     </ChakraProvider>
   )
 }
