@@ -104,7 +104,7 @@ export default function Plan() {
                 </Stack>
 
               
-<AspectRatio w={{base:350,md:450,lg:700}} h={'auto'} ratio={1}>
+<AspectRatio w={{base:380,md:450,lg:700}} h={'auto'} ratio={1}>
 <iframe  src="https://www.youtube.com/embed/PwLzOxLe4zc" title="PIAIC Registrations Open Now in METAVERSE Course" />
 </AspectRatio>
 
