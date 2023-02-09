@@ -1,4 +1,5 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import NextLink from 'next/link'
 import {
     Box,
     Flex,
@@ -76,21 +77,22 @@ import {
             direction={'row'}
             spacing={6}>
             <Button
-              as={'a'}
+              as={NextLink}
               fontSize={'sm'}
               fontWeight={400}
               variant={'link'}
-              href={'#'} rightIcon={<ExternalLinkIcon/>}>
+              _hover={{ color:'red' }}
+              href={'https://github.com/panaverse'} rightIcon={<ExternalLinkIcon/>}>
               Github
             </Button>
             <Button
-              as={'a'}
+              as={NextLink}
               display={{ base: 'none', md: 'inline-flex' }}
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
               bg={'#155deb'}
-              href={'#'}
+              href={'https://portal.piaic.org/signup'}
               _hover={{
                 bg: 'red.500',
               }}>
