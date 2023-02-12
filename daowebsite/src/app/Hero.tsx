@@ -71,7 +71,9 @@ export default function Hero() {
                             px={6}
                             colorScheme={'red'}
                             bg={'red.400'}
-                            _hover={{ bg: 'red.500' }}>
+                            _hover={{ bg: 'red.500' }}
+                            as={'a'}
+                            href={'#'}>
                             Get started
                         </Button>
                         <Button
