@@ -1,10 +1,11 @@
+"use client"
 import Head from 'next/head'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Inter } from '@next/font/google'
 import Hero from './Hero'
 import Quaters from './Quaters'
-import NabBar from './navbar'
-import Footer from './Footer'
+import NabBar from './navbar1'
+import Footer from './Footer1'
 import Quarter1 from './Quarter1'
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export default function Home() {
         <NabBar />
         <Hero />
         <Quaters />
-        <Quarter1/>
+        <Quarter1 />
         <Footer />
       </ChakraProvider>
     </>
