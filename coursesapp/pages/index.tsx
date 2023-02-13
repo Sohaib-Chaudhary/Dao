@@ -1,3 +1,4 @@
+'user client';
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import { ChakraProvider } from '@chakra-ui/react'
