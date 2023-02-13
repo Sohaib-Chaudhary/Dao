@@ -5,6 +5,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Quaters from './Quaters';
 const inter = Inter({ subsets: ['latin'] })
 import Hero from './Hero'
+import Quarter1 from './Quarter1';
 export default function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function Home() {
       
         <Hero />
         <Quaters/>
+        <Quarter1/>
       </ChakraProvider>
 
 
