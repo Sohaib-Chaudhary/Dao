@@ -5,6 +5,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Quaters from './Quaters';
 const inter = Inter({ subsets: ['latin'] })
 import Hero from './Hero'
+import NabBar from './navbar1';
 import Quarter1 from './Quarter1';
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-      
+      <NabBar/>
         <Hero />
         <Quaters/>
         <Quarter1/>
