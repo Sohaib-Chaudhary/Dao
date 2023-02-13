@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import { ChakraProvider } from '@chakra-ui/react'
-
+import Quaters from './Quaters';
 const inter = Inter({ subsets: ['latin'] })
 import Hero from './Hero'
 export default function Home() {
@@ -17,6 +17,7 @@ export default function Home() {
         </Head>
       
         <Hero />
+        <Quaters/>
       </ChakraProvider>
 
 
